@@ -6,4 +6,17 @@ body {
     line-height: 1.6; /* Improves text spacing for better readability */
 }
 
+/* Header Styles */
+header {
+    background-color: rgb(239, 166, 252);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between; /* Adds balance for 'Home' and navigation links */
+    align-items: center; /* Centers items vertically */
+}
 
+header a {
+    text-decoration: none;
+    color: black; /* Ensures contrast for visibility */
+    font-weight: bold;
+}
