@@ -20,3 +20,20 @@ header a {
     color: black; /* Ensures contrast for visibility */
     font-weight: bold;
 }
+
+nav {
+    display: flex;
+    gap: 2rem; /* Replaces margin-left for cleaner spacing between links */
+}
+
+nav a:hover {
+    color: purple; /* Adds a hover effect for better interactivity */
+}
+
+/* Image Container */
+.img-con {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 1rem;
+}
+
