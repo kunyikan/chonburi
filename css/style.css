@@ -37,3 +37,8 @@ nav a:hover {
     padding: 1rem;
 }
 
+.img-con img {
+    max-width: 100%; /* Ensures responsiveness for smaller screens */
+    height: auto; /* Maintains image aspect ratio */
+    border-radius: 8px; /* Adds subtle rounding to the image */
+}
