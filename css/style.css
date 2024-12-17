@@ -54,3 +54,46 @@ nav a:hover {
     color: black; /* Ensures good contrast for readability */
     border-top: 2px solid #ccc; /* Separates the footer visually */
 }
+
+/* Article Section */
+.article1 {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    padding: 2rem;
+    line-height: 1.8; /* Improves readability of text */
+}
+
+/* Image Alignment */
+.image-mou {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stacks header items for smaller screens */
+        align-items: flex-start;
+    }
+
+    nav {
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .article1 {
+        padding: 3rem;
+        font-size: 14px; /* Adjusts text size for smaller screens */
+    }
+}
+
+h2 {
+    text-align: center; /* จัดตำแหน่งข้อความให้อยู่กลางแนวนอน */
+    margin-top: 3rem; /* เพิ่มระยะห่างจากด้านบน */
+    font-size: 24px; /* ขนาดตัวอักษร */
+    font-weight: bold; /* ตัวอักษรหนา */
+}
+
